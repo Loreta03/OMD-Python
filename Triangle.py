@@ -26,3 +26,18 @@ class Song():
 happy_bday = Song(["May god bless you,","Have a sunshine on you", "Happy Birthday to you!"])
 happy_bday.sing_me_a_song()
 
+#Problem 3
+class Lunch():
+    def __init__(self, menu):
+        self.menu = menu
+    def menu_price(self):
+        if self.menu == "menu 1":
+            print("Your choice:" + str(self.menu) + ", Price 12.00")
+        elif self.menu == "menu 2":
+            print("Your choice:" + str(self.menu) + ", Price 13.40")
+        else:
+            print("Error in menu")
+Paul = Lunch("menu 1")
+Paul.menu_price()
+
+#Problem 4
