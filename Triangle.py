@@ -15,3 +15,14 @@ class Triangle():
 
 my_triangle = Triangle(90, 30, 60)
 print(my_triangle.check_angles())
+
+#Problem 2
+class Song():
+    def __init__(self, lyrics):
+        self.lyrics = lyrics
+    def sing_me_a_song(self):
+        for lyline in self.lyrics:
+            print(lyline)
+happy_bday = Song(["May god bless you,","Have a sunshine on you", "Happy Birthday to you!"])
+happy_bday.sing_me_a_song()
+
